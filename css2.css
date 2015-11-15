@@ -1,0 +1,238 @@
+body{
+font-family:"Arial", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+
+/*  formulario  */
+.myform{
+margin:0 auto;
+width:600px;
+padding:14px;
+}
+
+#cabecera {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#login{
+    border:solid 3px #87CEFA;
+    border-radius: 5px 50px;
+    box-shadow: 2px 2px 5px #999999;
+    background-color: transparent;
+    /*background:#87CEFA;*/
+    background-image: url("images/fondo_30.png");
+    background-repeat: no-repeat;
+}
+
+#login h1 {
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+#login p{
+    font-size:12px;
+    font-weight: bold;
+    color:#666666;
+    margin-bottom:20px;
+    border-bottom:solid 1px #999999;
+    padding-bottom:10px;
+}
+#login label{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:200px;
+    float:left;
+}
+#login .small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:bold;
+    text-align:right;
+    width:200px;
+}
+#login input{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #777777;
+    width:200px;
+    margin:2px 0 20px 10px;
+}
+#login button{
+    clear:both;
+    margin-left:225px;
+    width:150px;
+    height:31px;
+    background:#666666;
+    text-align:center;
+    line-height:31px;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight:bold;
+    opacity: 1.0;
+}
+
+#login a:link {   
+   clear:both;
+   display:block;
+   text-decoration:none;  
+   text-align: center;
+   padding: 20px;
+   margin: 10px;
+   color: #FFFFFF;
+   font: bold 16px arial;
+   background:#666666;
+   border:solid 2px #FFFFFF;
+   border-radius: 15px 15px 15px 15px;
+   opacity: 1;
+}   
+
+#login a:visited {
+   color: #FFFFFF;
+}
+
+#login a:hover {
+   color: #fea;
+}
+
+#login a:active {
+   color: yellow;
+}
+
+/*#login .link {   
+   clear:both;
+   display:block;
+   width: 200px;
+   text-decoration:none;  
+   text-align: center;
+   padding: 20px;
+   color: #2775B2;
+   font: bold 16px arial;
+   background:#666666;
+   border:solid 1px #777777;
+   border-radius: 15px 15px 15px 15px;
+   opacity: 1;
+}   */
+
+#login img {
+    /*clear:both;
+    margin-left:225px;*/
+    float: left;
+}
+
+#login .texto {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #808080;
+    text-align:left;
+    width:370px;
+    height: 150px;
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#login .textoh1 {
+    display:block;
+    width:400px;
+    height: 150px;;
+    font-size:16px;
+    font-weight:bold;
+    float:left;
+    margin-left: 50px;
+}
+#login .retorno {
+    padding-bottom: 10px;
+    font-size:13px;
+    color: #000000;
+    
+}
+
+#menu {
+    background: #87CEFA;
+    padding: 2px 2px;
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 15px 0px;
+    box-shadow: 2px 2px 5px #999999;
+}
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px arial;
+    color: #525151; 
+}
+#menu a:link {   
+   text-decoration:none;  
+   text-align: center;
+   color: #FFFFFF;
+   padding: 8px 10px;
+   font: bold 13px arial;
+   border:solid 1px #777777;
+   border-radius: 5px 5px 5px 5px;
+   background-color: #666666;
+}   
+
+#menu a:visited {
+   color: #FFFFFF;
+}
+
+#menu a:hover {
+   color: #fea;
+}
+
+#menu a:active {
+   color: yellow;
+}
+
+.message {
+    width: 650px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    background-color: #A9F5D0;
+    text-align: center;
+    vertical-align: middle;
+    padding:5px;
+    box-shadow: 2px 2px 5px #999999;
+}
+
+.error {
+    width: 650px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: tomato;
+    text-align: center;
+    vertical-align: middle;
+    /*border: 1px solid coral;*/
+    padding:5px;
+    box-shadow: 2px 2px 5px #999999;
+}
+#pie {
+    clear: both; 
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    font: normal 12px arial;
+}
